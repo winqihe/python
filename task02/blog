@@ -1,0 +1,58 @@
+if语句：
+if 条件1:
+    语句1
+elif 条件2:
+    语句2
+else:
+	语句3
+注：每个条件后面用冒号：，使用缩进来划分语句块
+if嵌套：
+if 表达式1:
+    语句
+    if 表达式2:
+        语句
+    elif 表达式3:
+        语句
+    else:
+        语句
+elif 表达式4:
+    语句
+else:
+    语句
+循环语句：
+1. while ：
+
+while condition：
+    statements
+
+2. while-else：
+
+while <expr>:
+    <statement(s)>
+else:
+    <additional_statement(s)>
+    
+3. for：
+
+for <variable> in <sequence>:
+    <statements>
+else:
+    <statements>
+
+4. range函数：
+遍历数字序列
+
+for i in range(0,5)
+将会打印出0，1，2，3，4
+
+5. break和continue
+同java中的break和continue
+break可以跳出for和while的循环体，而continue只会跳出当前的循环。
+6. pass语句
+pass语句是空语句，不做任何操作，只做占位操作。
+7. enumerate()函数
+enumerate(sequence, [start=0])
+sequence -- 一个序列、迭代器或其他支持迭代对象。
+start -- 下标的起始位置（可自己设置）
+
+
